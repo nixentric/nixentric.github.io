@@ -5,13 +5,14 @@ description: >- # site description
 lang: id-ID # default lang
 timezone: Asia/Jakarta # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo:  # site repo [optional]
+repo: https://github.com/nixentric/nixentric.github.io # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Nixentric # author name
-  bio: >- Berbagi sepenuh hati seperti merawat anak sendiri # tell to the world
+  bio: >- # tell to the world
+    Berbagi sepenuh hati seperti merawat anak sendiri.  
   username: nixentric # general username
   github: nixentric # github username
   twitter: nixentric # twitter username
