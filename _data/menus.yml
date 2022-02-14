@@ -9,7 +9,11 @@
 - title: about
   url: /about/
   external: false # set true if you using external link, see below
-
+  
+ - title: discord
+  url: https://discord.gg/9eENvzyCCQ
+  external: true
+  
 # Example:
 # - title: github
 #   url: https://github.com/piharpi/jekyll-klise
