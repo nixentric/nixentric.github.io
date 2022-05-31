@@ -12,7 +12,7 @@ Tailwind CSS, merupakan framework yang belakangan sedang naik daun di kalangan p
 
 Sampai disini mungkin diantara kita ada yang **bertanya**: Lantas, apa yang membedakan Tailwind CSS dengan framework yang lain, bukankah framework lain juga menawarkan kemudahan dalam mendesain sebuah website juga?
 
-Untuk membahas itu, mari kita menuntaskan terlebih dahulu definisi dari Tailwind CSS dan kenapa menggunakan framework ini.
+Untuk membahas itu, mari kita menuntaskan terlebih dahulu definisi dari Tailwind CSS serta kelebihan dan kekurangan menggunakan framework ini. Sehingga kamu dapat menentukan, apakah framework ini tepat untukmu atau malah sebaliknya.
 
 ## Definisi Tailwind CSS
 
