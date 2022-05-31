@@ -15,7 +15,7 @@ Sampai disini mungkin diantara kita ada yang **bertanya**: Lantas, apa yang memb
 Untuk membahas itu, mari kita menuntaskan terlebih dahulu definisi dari Tailwind CSS, serta kelebihan dan kekurangan menggunakan framework ini. Sehingga kamu dapat menentukan, apakah framework ini tepat untukmu atau malah sebaliknya.
 
 ## Definisi Tailwind CSS
-Apa itu tailwind CSS
+Seperti yang kita singgung sebelumnya, Tailwind CSS merupakan framework yang berbasis Utility-First. Lantas, apa yang dimaksud dengan Utility-First CSS? Utility-First CSS merupakan sebuah konsep framework CSS yang berbasis low-level CSS
 
 Apa itu First 
 
