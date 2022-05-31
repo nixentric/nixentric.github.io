@@ -15,5 +15,9 @@ Sampai disini mungkin diantara kita ada yang **bertanya**: Lantas, apa yang memb
 Untuk membahas itu, mari kita menuntaskan terlebih dahulu definisi dari Tailwind CSS, serta kelebihan dan kekurangan menggunakan framework ini. Sehingga kamu dapat menentukan, apakah framework ini tepat untukmu atau malah sebaliknya.
 
 ## Definisi Tailwind CSS
+Apa itu tailwind CSS
+
+Apa itu First 
 
 
+First-Utility framework sebenarnya juga bukan hal yang baru di dunia framework CSS itu sendiri, ada beberapa diantaranya bla,bla. Bahkan diantaranya telah lahir sebelum tailwind CSS ini muncul. Namun kenapa tailwind CSS yang populer?
