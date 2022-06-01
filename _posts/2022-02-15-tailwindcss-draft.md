@@ -100,7 +100,7 @@ Sedangkan Tailwind:
 <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Primary</button>
 ```
 
-Kalau dilihat dari kedua kode tersebut, Bootstrap terlihat lebih simpel dan lebih efisien, tetapi
+Kalau dilihat dari kedua kode tersebut, Bootstrap tampak lebih simpel dan lebih efisien, tetapi
 
 Kekurangan:
 - Karena
