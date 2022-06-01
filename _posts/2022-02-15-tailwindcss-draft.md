@@ -89,6 +89,18 @@ Sedangkan, jika kita menggunakan framework Tailwind CSS, kita hanya perlu mengom
 
 Dari contoh di atas, jika kita pernah menggunakan framework populer lain, seperti Bootstrap, Bulma dan lain sebagainya, kita dapat melihat perbedaan Tailwind CSS dengan kebanyakan framework populer lainnya.
 
-Mulai dari konsep, Tailwind menggunakan pendekatan Utility-First, sedangkan kebanyakan framework populer lain mengadaptasi konsep UI Kit.
+Mulai dari konsep, Tailwind menggunakan pendekatan Utility-First, sedangkan kebanyakan framework populer lain mengadaptasi konsep UI Kit. Yang mana UI Kit memiliki komponen template dan siap pakai. Contohnya saja, jika kita ingin membuat button, maka Bootstrap hanya melakukan hal berikut ini:
+
+```html
+<button type="button" class="btn btn-primary">Primary</button>
+```
+
+Sedangkan Tailwind:
+```html
+<button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Primary</button>
+```
+
+Kekurangan:
+- Karena
 
 First-Utility framework sebenarnya juga bukan hal yang baru di dunia framework CSS itu sendiri. Ada beberapa diantaranya tachyons, basscss, shed-css, dan masih banyak lagi. Bahkan diantaranya telah lahir sebelum tailwind CSS ini muncul. Namun kenapa tailwind CSS yang populer?
