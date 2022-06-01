@@ -18,12 +18,12 @@ Untuk membahas itu, mari kita menuntaskan terlebih dahulu definisi dari Tailwind
 Seperti yang kita singgung sebelumnya, Tailwind CSS merupakan framework yang berbasis Utility-First. Lantas, apa yang dimaksud dengan Utility-First CSS? Utility-First CSS merupakan sebuah konsep framework CSS yang berbasis low-level class, yang artinya setiap class hanya memiliki 1 fungsi.
 
 ### Contoh:
-Apabila kita ingin membuat sebuah card seperti gambar dibawah ini:
+Kita ingin membuat sebuah card seperti gambar dibawah ini:
 
 <p align="center">
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwyVx0LRBS8fkxthnr8RrmwBPYavVy35knbtM4k3_5iDulnfXgQv6aYspnHxTTlH_9FmmkJosDO6EH52kPIZSqhM75P9r-dVu8-1hpgMIFWDoW_GOwUmbLZ17GVUk2CoZUoRNqUG2fYBeeb9_6FmJgi_nmZFfYXaBrMuzdYJjaZ9t6EcCsfTlypTaiAA/s384/contoh-card.png" alt="Contoh Card yang dibuat dengan TailwindCSS"></p>
 
-Jika kita menggunakan cara tradisional, kita biasanya akan membuat satu class khusus hanya untuk satu desain saja, contohnya sebagai berikut:
+Jika pendekatan dengan metode tradisional, kita biasanya akan membuat satu class khusus hanya untuk satu desain saja, contohnya sebagai berikut:
 
 #### Kode HTML dengan Pendekatan Tradisional 
 ```html
