@@ -85,6 +85,6 @@ Sedangkan, jika kita menggunakan framework Tailwind CSS, kita hanya perlu mengom
 </div>
 ```
 
-Hal inilah yang membedakan Tailwind CSS dengan kebanyakan framework CSS populer lainnya seperti Bootstrap, Foundation dan lain sebagainya.
+Dari contoh tersebut, kita juga dapat melihat perbedaan Tailwind CSS dengan kebanyakan framework CSS populer lainnya seperti Bootstrap, Foundation dan lain sebagainya.
 
 First-Utility framework sebenarnya juga bukan hal yang baru di dunia framework CSS itu sendiri, ada beberapa diantaranya bla,bla. Bahkan diantaranya telah lahir sebelum tailwind CSS ini muncul. Namun kenapa tailwind CSS yang populer?
