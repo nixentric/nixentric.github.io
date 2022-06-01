@@ -18,8 +18,15 @@ Untuk membahas itu, mari kita menuntaskan terlebih dahulu definisi dari Tailwind
 Seperti yang kita singgung sebelumnya, Tailwind CSS merupakan framework yang berbasis Utility-First. Lantas, apa yang dimaksud dengan Utility-First CSS? Utility-First CSS merupakan sebuah konsep framework CSS yang berbasis low-level class, yang artinya setiap class hanya memiliki 1 fungsi.
 
 ### Contoh:
-Apabila kita ingin membuat
+Apabila kita ingin membuat sebuah card seperti gambar dibawah ini:
 
+<p align="center">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwyVx0LRBS8fkxthnr8RrmwBPYavVy35knbtM4k3_5iDulnfXgQv6aYspnHxTTlH_9FmmkJosDO6EH52kPIZSqhM75P9r-dVu8-1hpgMIFWDoW_GOwUmbLZ17GVUk2CoZUoRNqUG2fYBeeb9_6FmJgi_nmZFfYXaBrMuzdYJjaZ9t6EcCsfTlypTaiAA/s384/contoh-card.png" alt="Contoh Card yang dibuat dengan TailwindCSS"></p>
+
+Jika kita menggunakan cara tradisional, kita biasanya akan membuat satu class khusus hanya untuk satu desain saja, contohnya sebagai berikut:
+
+#### Kode HTML dengan Pendekatan Tradisional 
+```html
 <div class="chat-notification">
   <div class="chat-notification-logo-wrapper">
     <img class="chat-notification-logo" src="/img/logo.svg" alt="ChitChat Logo">
@@ -29,8 +36,9 @@ Apabila kita ingin membuat
     <p class="chat-notification-message">You have a new message!</p>
   </div>
 </div>
-
-<style>
+```
+#### Kode CSS dengan Pendekatan Tradisional
+```css
   .chat-notification {
     display: flex;
     max-width: 24rem;
@@ -61,7 +69,21 @@ Apabila kita ingin membuat
     font-size: 1rem;
     line-height: 1.5;
   }
-</style>
+```
+
+Sedangkan, jika kita menggunakan framework Tailwind CSS, kita hanya perlu mengombinasikan beberapa class di dalam tag element tanpa perlu menulis CSS, sehingga membuat pekerjaan kita lebih cepat dan effisien.
+
+```html
+<div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+  <div class="shrink-0">
+    <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
+  </div>
+  <div>
+    <div class="text-xl font-medium text-black">ChitChat</div>
+    <p class="text-slate-500">You have a new message!</p>
+  </div>
+</div>
+```
 
 Hal inilah yang membedakan Tailwind CSS dengan kebanyakan framework CSS populer lainnya seperti Bootstrap, Foundation dan lain sebagainya.
 
